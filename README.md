@@ -1,4 +1,4 @@
-#ApexAuth
+# ApexAuth
 
 Hi this ApexAuth was made using flask and bootstrap css for more info please msg me on discord musksus._
 
