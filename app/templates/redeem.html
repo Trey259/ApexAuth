@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redeem API Key</title>
+</head>
+<body>
+    <h1>Redeem API Key</h1>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul>
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+    <form method="POST">
+        <label for="api_key">API Key:</label>
+        <input type="text" name="api_key" required><br>
+        <input type="submit" value="Redeem">
+    </form>
+</body>
+</html>
